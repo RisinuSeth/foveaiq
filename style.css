@@ -117,12 +117,12 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:38p
 }
 
 .foveaiq-logo {
-  width: 190px;
+  width: 260px;
   height: auto;
   display: block;
   object-fit: contain;
 }
 
 footer .foveaiq-logo {
-  width: 160px;
+  width: 210px;
 }
