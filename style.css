@@ -112,28 +112,17 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:38p
 .foveaiq-brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
-  color: var(--ink);
   text-decoration: none;
-  vertical-align: middle;
+  line-height: 0;
 }
 
 .foveaiq-logo {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
+  width: 190px;
+  height: auto;
   display: block;
-}
-
-.foveaiq-wordmark {
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 1.8px;
-  line-height: 1;
-  color: var(--ink);
+  object-fit: contain;
 }
 
 footer .foveaiq-logo {
-  width: 38px;
-  height: 38px;
+  width: 160px;
 }
