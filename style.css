@@ -119,29 +119,10 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:38p
 }
 
 .foveaiq-logo {
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
   display: block;
-  flex: 0 0 38px;
-}
-
-.brand-frame {
-  fill: none;
-  stroke: var(--ink);
-  stroke-width: 1.5;
-  opacity: 0.18;
-}
-
-.brand-f {
-  fill: none;
-  stroke: var(--blue);
-  stroke-width: 4.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.brand-point {
-  fill: var(--blue);
 }
 
 .foveaiq-wordmark {
@@ -150,4 +131,9 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:38p
   letter-spacing: 1.8px;
   line-height: 1;
   color: var(--ink);
+}
+
+footer .foveaiq-logo {
+  width: 38px;
+  height: 38px;
 }
