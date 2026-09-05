@@ -114,39 +114,46 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:38p
   align-items: center;
   gap: 12px;
   text-decoration: none;
-  color: inherit;
+  color: #111318;
+  vertical-align: middle;
 }
 
 .foveaiq-logo {
+  display: block;
   width: 40px;
   height: 40px;
-  flex-shrink: 0;
+  flex: 0 0 40px;
+  overflow: visible;
 }
 
 .logo-ring {
-  stroke: currentColor;
+  fill: none;
+  stroke: #111318;
   stroke-width: 1.5;
-  opacity: 0.45;
+  opacity: 0.35;
 }
 
 .logo-main {
-  stroke: currentColor;
+  fill: none;
+  stroke: #315cf5;
   stroke-width: 4;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .logo-core {
-  fill: currentColor;
+  fill: #315cf5;
 }
 
 .logo-node {
-  fill: currentColor;
-  opacity: 0.65;
+  fill: #315cf5;
+  opacity: 0.7;
 }
 
-.foveaiq-brand span {
+.foveaiq-wordmark {
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 1.8px;
+  color: #111318;
+  line-height: 1;
 }
